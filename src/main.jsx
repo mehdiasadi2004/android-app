@@ -7,7 +7,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import { Error } from './component/Error/Error.jsx'
 import { Root } from './component/Root/Root.jsx'
 import { Cars } from './component/Brands/Cars.jsx'
-import { Detail } from './component/detail/detail.jsx'
+import  {Detail}  from './component/Detail/Detail.jsx'
 import { NotFound } from './component/Notfound/Notfound.jsx'
 
 
