@@ -1,0 +1,42 @@
+.footer{
+    margin-top: 20px;
+    padding-top: 30px;
+
+    border-top: 1px solid #ccc;
+    margin:0 10px;
+    
+    height: 400px;
+    /* width: 100%; */
+
+    /* background: blue; */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+
+
+}
+.ft{
+
+    
+    height: 100%;
+    width: 20%;
+}
+.ft > ul{
+
+    text-align: left;
+    list-style: none;
+    margin: 0;
+
+    line-height: 25px;
+
+    font-size: large
+}
+.ft > ul > li{
+    font-size: small;
+
+    cursor: pointer;
+}
+.ft > ul > li:hover{
+    color: aqua;
+}

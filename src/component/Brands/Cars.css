@@ -1,0 +1,13 @@
+.carBox{
+    width: 100%;
+    min-height: 400px;
+    margin: 50px 0;
+
+    
+
+    display: flex;
+    flex-flow: row wrap;
+    gap: 40px;
+    justify-content: space-evenly;
+    align-items: start;
+}

@@ -1,0 +1,15 @@
+.errorMain{
+    width: 100%;
+    height: 100vh;
+    background: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.eCenter{
+    /* width: 30%; */
+    /* height: 200px; */
+
+    color: rgb(255, 66, 66);
+}

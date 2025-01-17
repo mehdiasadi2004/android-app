@@ -1,0 +1,62 @@
+.detail{
+    min-height:800px;
+    width: 100%;
+
+    /* padding: 20px 300px; */
+
+
+}
+.detail > .imgHolder{
+    width: 100%;
+    height:220px;
+    overflow: hidden;
+
+    position: relative;
+
+}
+.detail > .imgHolder > img{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.detail > .imgHolder > .imgInfo{
+    padding-left: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: left;
+    width: 100%;
+
+    height: 30%;
+    background: rgb(0,0,0,0.9);
+    box-shadow: 0px -15px 45px 40px rgba(0,0,0,0.9);
+}
+.detail > .imgHolder > .imgInfo > span{
+    font-size: large;
+    display: block;
+    
+}
+.detail > .imgHolder > .imgInfo > p{
+    font-size: 2vw;
+
+    margin: 0;
+    margin-top: 5px;
+    padding: 0;
+    padding-left: 20px;
+}
+.detail > .imgHolder > .imgInfo > h5{
+    font-weight: 400;
+    margin-top: 5px;
+}
+.detail > .textHolder{
+    padding-left: 20px;
+    margin: 50px 0;
+
+    width: 100%;
+    font-size: small;
+
+    text-align: left;
+
+    line-height: 25px;
+}
